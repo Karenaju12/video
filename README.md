@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+<html>
 <html lang="es">
   <head>
     <title>AppDeGatos</title>
@@ -38,12 +39,10 @@
       <form action="/enviar-respuesta">
         <!-- Botones de Radio -->
         <label for="interior">
-          <input id="interior" type="radio" value="interior" name="interior-exterior">Interior
-        </label>
+          <input id="interior" type="radio" value="interior" name="interior-exterior">Interior</label>
         <br>
         <label for="exterior">
-          <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
-        </label>
+          <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior</label>
         <br>
 
         <h2>Ingrese su nombre</h2>
@@ -60,12 +59,7 @@
         <br>
         <input type="text" placeholder="URL de la foto de su gato" required><br>
         <button type="submit">Enviar</button>
-        <button type="reset">Limpiar</button>
-      </form>
-    </main>
+        <button type="reset">Limpiar</button></form></main>
     <br>
     <footer>
-      <p><small>Sin Derechos de Autor - <a href="https://www.freecodecamp.org/espanol/">freeCodeCamp.org</a></small></p>
-    </footer>
-  </body>
-</html>
+      <p><small>Sin Derechos de Autor - <a href="https://www.freecodecamp.org/espanol/">freeCodeCamp.org</a></small></p></footer></body></html>
